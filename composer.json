@@ -1,0 +1,28 @@
+{
+    "name": "samihsoylu/utility-php",
+    "description": "A library that provides utility classes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SamihSoylu\\Utility\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samih Soylu",
+            "email": "mail@samihsoylu.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "php": "^8.0",
+        "pestphp/pest": "^1.23",
+        "friendsofphp/php-cs-fixer": "^3.28"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
